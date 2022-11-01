@@ -36,7 +36,7 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("mstart") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6eb76516a1149cbbf632a.jpg",
@@ -66,7 +66,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    commandpro(["/start", "/alive", "Alexa"]) & filters.group & ~filters.edited
+    commandpro(["/mstart", "/alive", "Alexa"]) & filters.group & ~filters.edited
 )
 async def start(client: Client, message: Message):
     await message.reply_photo(
