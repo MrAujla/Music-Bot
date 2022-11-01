@@ -39,26 +39,25 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4c7025b0b94c0d2b5f94a.jpg",
+        photo=f"https://telegra.ph/file/6eb76516a1149cbbf632a.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟᴇxᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [Asᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
-┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟᴇxᴀ Sᴇʀᴠᴇʀ](https://t.me/AsadSupport)
-┣★ sᴜᴘᴘᴏʀᴛ : [Aʟᴇxᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
-┣★ ᴏᴡɴᴇʀ › : [Mʏ ʙʀᴏ](https://t.me/HarshitSharma361)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [Tejinder Aujla](https://t.me/User_PB65)
+┣★ ᴜᴘᴅᴀᴛᴇs : [Channel](https://t.me/All_Type_Ki_Duniya)
+┣★ sᴜᴘᴘᴏʀᴛ : [Chat Group](https://t.me/PunjabiChat_Group)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/User_PB65) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴀʟᴇxᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
-                        url=f"https://t.me/Asad_Music_Bot?startgroup=true",
+                        "➕ ❰ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
+                        url=f"https://t.me/KaurSardrani_Bot?startgroup=true",
                     )
                 ]
             ]
@@ -71,35 +70,14 @@ async def start_(client: Client, message: Message):
 )
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
+        photo=f"https://telegra.ph/file/421cbbecc786312269396.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                        url=f"https://t.me/Shayri_Music_Lovers",
-                    )
-                ]
-            ]
-        ),
-    )
-
-
-@Client.on_message(
-    commandpro(["repo", "#repo", "@repo", "/repo", "source"])
-    & filters.group
-    & ~filters.edited
-)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/Dr_Asad_Ali"
+                        url=f"https://t.me/PunjabiChat_Group",
                     )
                 ]
             ]
