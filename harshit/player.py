@@ -94,7 +94,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Rocks Asad And Harshit",
+        f"Powered By: Tejinder Aujla",
         (255, 255, 255),
         font=font,
     )
@@ -122,7 +122,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Alexa_Player"
+        user.first_name = "Aujla_Player"
     usar = user
     wew = usar.id
     try:
